@@ -57,13 +57,25 @@ class GameViewController: UIViewController {
     }
     
     private func configureAR(arView: ARSCNView) {
+        //setup of the ARView
         arView.session.run(configuration, options: [])
         arView.debugOptions = [ARSCNDebugOptions.showFeaturePoints, ARSCNDebugOptions.showWorldOrigin]
+        arView.autoenablesDefaultLighting = true
     }
     
     @objc func handlePlusButtonTapped() {
         print("Button pressed!")
+        addBox()
     }
     
+    private func addBox() {
+        //adding a box into the ar scene view with the button push
+        let boxNode = SCNNode()
+        boxNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.0002)
+        //to change the box content, you have to diffuse the contents
+        boxNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        boxNode.position = SCNVector3(0,0,0)
+        arscnView.scene.rootNode.addChildNode(boxNode)
+    }
     
 }
