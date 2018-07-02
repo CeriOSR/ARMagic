@@ -27,8 +27,8 @@ struct DeviceType {
     static let isIphone6 = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength == 667.0
     static let isIphone6Plus = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength == 736.0
     static let isIphoneX = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength == 812.0
-//    static let isIpad = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength ==
-//    static let isIpadPro = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength ==
+    static let isIpad = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength == 1024.0
+    static let isIpadPro = UIDevice.current.userInterfaceIdiom == .phone && ScreenSize.maxLength == 1366.0
 
 }
 
