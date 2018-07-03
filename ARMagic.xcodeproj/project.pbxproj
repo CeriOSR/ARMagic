@@ -1,0 +1,742 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00DAF76AF343DCB45F21968B /* Pods_ARMagicTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8873B5994A3C2A31155E685A /* Pods_ARMagicTests.framework */; };
+		585111D1A9EBD16ED1E37F66 /* Pods_ARMagicUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61EFD272FA411869670D642F /* Pods_ARMagicUITests.framework */; };
+		A037D221E5B8EA1B98B65F96 /* Pods_ARMagic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3BDBF9F6968A5FD15B011BE0 /* Pods_ARMagic.framework */; };
+		E0ABE8BD20E6C0A8007E7AEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8BC20E6C0A8007E7AEC /* AppDelegate.swift */; };
+		E0ABE8C220E6C0A8007E7AEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ABE8C020E6C0A8007E7AEC /* Main.storyboard */; };
+		E0ABE8C420E6C0A9007E7AEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0ABE8C320E6C0A9007E7AEC /* Assets.xcassets */; };
+		E0ABE8C720E6C0A9007E7AEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0ABE8C520E6C0A9007E7AEC /* LaunchScreen.storyboard */; };
+		E0ABE8D220E6C0AA007E7AEC /* ARMagicTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8D120E6C0AA007E7AEC /* ARMagicTests.swift */; };
+		E0ABE8DD20E6C0AA007E7AEC /* ARMagicUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8DC20E6C0AA007E7AEC /* ARMagicUITests.swift */; };
+		E0ABE8EB20E6E8ED007E7AEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EA20E6E8ED007E7AEC /* GameViewController.swift */; };
+		E0ABE8EC20E6E8ED007E7AEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EA20E6E8ED007E7AEC /* GameViewController.swift */; };
+		E0ABE8ED20E6E8ED007E7AEC /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EA20E6E8ED007E7AEC /* GameViewController.swift */; };
+		E0ABE8EF20E73915007E7AEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EE20E73915007E7AEC /* Extensions.swift */; };
+		E0ABE8F020E73915007E7AEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EE20E73915007E7AEC /* Extensions.swift */; };
+		E0ABE8F120E73915007E7AEC /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0ABE8EE20E73915007E7AEC /* Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0ABE8CE20E6C0AA007E7AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0ABE8B120E6C0A7007E7AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0ABE8B820E6C0A8007E7AEC;
+			remoteInfo = ARMagic;
+		};
+		E0ABE8D920E6C0AA007E7AEC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0ABE8B120E6C0A7007E7AEC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0ABE8B820E6C0A8007E7AEC;
+			remoteInfo = ARMagic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3BDBF9F6968A5FD15B011BE0 /* Pods_ARMagic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMagic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5B775A800451358C19DCC784 /* Pods-ARMagicTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagicTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagicTests/Pods-ARMagicTests.release.xcconfig"; sourceTree = "<group>"; };
+		61EFD272FA411869670D642F /* Pods_ARMagicUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMagicUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		71FB4E8580447BA19967DA7C /* Pods-ARMagic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagic/Pods-ARMagic.release.xcconfig"; sourceTree = "<group>"; };
+		8648A9B00364FC2BC4EA8485 /* Pods-ARMagicUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagicUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagicUITests/Pods-ARMagicUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8873B5994A3C2A31155E685A /* Pods_ARMagicTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARMagicTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9961F9B7EEBC72D8CB728016 /* Pods-ARMagicTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagicTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagicTests/Pods-ARMagicTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A5BF559D286D2289EAEEC12 /* Pods-ARMagicUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagicUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagicUITests/Pods-ARMagicUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E0ABE8B920E6C0A8007E7AEC /* ARMagic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARMagic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ABE8BC20E6C0A8007E7AEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E0ABE8C120E6C0A8007E7AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0ABE8C320E6C0A9007E7AEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E0ABE8C620E6C0A9007E7AEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E0ABE8C820E6C0A9007E7AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ABE8CD20E6C0AA007E7AEC /* ARMagicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMagicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ABE8D120E6C0AA007E7AEC /* ARMagicTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMagicTests.swift; sourceTree = "<group>"; };
+		E0ABE8D320E6C0AA007E7AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ABE8D820E6C0AA007E7AEC /* ARMagicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ARMagicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0ABE8DC20E6C0AA007E7AEC /* ARMagicUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARMagicUITests.swift; sourceTree = "<group>"; };
+		E0ABE8DE20E6C0AA007E7AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0ABE8EA20E6E8ED007E7AEC /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		E0ABE8EE20E73915007E7AEC /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		F64FC1F8DD24B2BA65250DF4 /* Pods-ARMagic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARMagic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARMagic/Pods-ARMagic.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0ABE8B620E6C0A8007E7AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A037D221E5B8EA1B98B65F96 /* Pods_ARMagic.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8CA20E6C0AA007E7AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00DAF76AF343DCB45F21968B /* Pods_ARMagicTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8D520E6C0AA007E7AEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				585111D1A9EBD16ED1E37F66 /* Pods_ARMagicUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3ED55DF0C4AAB5E1C2C980AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F64FC1F8DD24B2BA65250DF4 /* Pods-ARMagic.debug.xcconfig */,
+				71FB4E8580447BA19967DA7C /* Pods-ARMagic.release.xcconfig */,
+				9961F9B7EEBC72D8CB728016 /* Pods-ARMagicTests.debug.xcconfig */,
+				5B775A800451358C19DCC784 /* Pods-ARMagicTests.release.xcconfig */,
+				8648A9B00364FC2BC4EA8485 /* Pods-ARMagicUITests.debug.xcconfig */,
+				9A5BF559D286D2289EAEEC12 /* Pods-ARMagicUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		DC0301BD195BAADC78DF2B66 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3BDBF9F6968A5FD15B011BE0 /* Pods_ARMagic.framework */,
+				8873B5994A3C2A31155E685A /* Pods_ARMagicTests.framework */,
+				61EFD272FA411869670D642F /* Pods_ARMagicUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0ABE8B020E6C0A7007E7AEC = {
+			isa = PBXGroup;
+			children = (
+				E0ABE8BB20E6C0A8007E7AEC /* ARMagic */,
+				E0ABE8D020E6C0AA007E7AEC /* ARMagicTests */,
+				E0ABE8DB20E6C0AA007E7AEC /* ARMagicUITests */,
+				E0ABE8BA20E6C0A8007E7AEC /* Products */,
+				3ED55DF0C4AAB5E1C2C980AC /* Pods */,
+				DC0301BD195BAADC78DF2B66 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		E0ABE8BA20E6C0A8007E7AEC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABE8B920E6C0A8007E7AEC /* ARMagic.app */,
+				E0ABE8CD20E6C0AA007E7AEC /* ARMagicTests.xctest */,
+				E0ABE8D820E6C0AA007E7AEC /* ARMagicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0ABE8BB20E6C0A8007E7AEC /* ARMagic */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABE8BC20E6C0A8007E7AEC /* AppDelegate.swift */,
+				E0ABE8C020E6C0A8007E7AEC /* Main.storyboard */,
+				E0ABE8C320E6C0A9007E7AEC /* Assets.xcassets */,
+				E0ABE8C520E6C0A9007E7AEC /* LaunchScreen.storyboard */,
+				E0ABE8C820E6C0A9007E7AEC /* Info.plist */,
+				E0ABE8EA20E6E8ED007E7AEC /* GameViewController.swift */,
+				E0ABE8EE20E73915007E7AEC /* Extensions.swift */,
+			);
+			path = ARMagic;
+			sourceTree = "<group>";
+		};
+		E0ABE8D020E6C0AA007E7AEC /* ARMagicTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABE8D120E6C0AA007E7AEC /* ARMagicTests.swift */,
+				E0ABE8D320E6C0AA007E7AEC /* Info.plist */,
+			);
+			path = ARMagicTests;
+			sourceTree = "<group>";
+		};
+		E0ABE8DB20E6C0AA007E7AEC /* ARMagicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E0ABE8DC20E6C0AA007E7AEC /* ARMagicUITests.swift */,
+				E0ABE8DE20E6C0AA007E7AEC /* Info.plist */,
+			);
+			path = ARMagicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0ABE8B820E6C0A8007E7AEC /* ARMagic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ABE8E120E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagic" */;
+			buildPhases = (
+				E203CF339D1F71A7D06474E3 /* [CP] Check Pods Manifest.lock */,
+				E0ABE8B520E6C0A8007E7AEC /* Sources */,
+				E0ABE8B620E6C0A8007E7AEC /* Frameworks */,
+				E0ABE8B720E6C0A8007E7AEC /* Resources */,
+				1742ED63A91EA0C14F9065D8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARMagic;
+			productName = ARMagic;
+			productReference = E0ABE8B920E6C0A8007E7AEC /* ARMagic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0ABE8CC20E6C0AA007E7AEC /* ARMagicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ABE8E420E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagicTests" */;
+			buildPhases = (
+				36B2D862661A41DBD5981DB5 /* [CP] Check Pods Manifest.lock */,
+				E0ABE8C920E6C0AA007E7AEC /* Sources */,
+				E0ABE8CA20E6C0AA007E7AEC /* Frameworks */,
+				E0ABE8CB20E6C0AA007E7AEC /* Resources */,
+				AA0958F21CEECC45C6B5F46F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0ABE8CF20E6C0AA007E7AEC /* PBXTargetDependency */,
+			);
+			name = ARMagicTests;
+			productName = ARMagicTests;
+			productReference = E0ABE8CD20E6C0AA007E7AEC /* ARMagicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E0ABE8D720E6C0AA007E7AEC /* ARMagicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0ABE8E720E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagicUITests" */;
+			buildPhases = (
+				F10A1C21FA8704521BF4E480 /* [CP] Check Pods Manifest.lock */,
+				E0ABE8D420E6C0AA007E7AEC /* Sources */,
+				E0ABE8D520E6C0AA007E7AEC /* Frameworks */,
+				E0ABE8D620E6C0AA007E7AEC /* Resources */,
+				C568B1BDD1E7189B6271724B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0ABE8DA20E6C0AA007E7AEC /* PBXTargetDependency */,
+			);
+			name = ARMagicUITests;
+			productName = ARMagicUITests;
+			productReference = E0ABE8D820E6C0AA007E7AEC /* ARMagicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0ABE8B120E6C0A7007E7AEC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Rey Cerio";
+				TargetAttributes = {
+					E0ABE8B820E6C0A8007E7AEC = {
+						CreatedOnToolsVersion = 9.4;
+					};
+					E0ABE8CC20E6C0AA007E7AEC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E0ABE8B820E6C0A8007E7AEC;
+					};
+					E0ABE8D720E6C0AA007E7AEC = {
+						CreatedOnToolsVersion = 9.4;
+						TestTargetID = E0ABE8B820E6C0A8007E7AEC;
+					};
+				};
+			};
+			buildConfigurationList = E0ABE8B420E6C0A7007E7AEC /* Build configuration list for PBXProject "ARMagic" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0ABE8B020E6C0A7007E7AEC;
+			productRefGroup = E0ABE8BA20E6C0A8007E7AEC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0ABE8B820E6C0A8007E7AEC /* ARMagic */,
+				E0ABE8CC20E6C0AA007E7AEC /* ARMagicTests */,
+				E0ABE8D720E6C0AA007E7AEC /* ARMagicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0ABE8B720E6C0A8007E7AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ABE8C720E6C0A9007E7AEC /* LaunchScreen.storyboard in Resources */,
+				E0ABE8C420E6C0A9007E7AEC /* Assets.xcassets in Resources */,
+				E0ABE8C220E6C0A8007E7AEC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8CB20E6C0AA007E7AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8D620E6C0AA007E7AEC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1742ED63A91EA0C14F9065D8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARMagic/Pods-ARMagic-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARMagic/Pods-ARMagic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		36B2D862661A41DBD5981DB5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMagicTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AA0958F21CEECC45C6B5F46F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARMagicTests/Pods-ARMagicTests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARMagicTests/Pods-ARMagicTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C568B1BDD1E7189B6271724B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARMagicUITests/Pods-ARMagicUITests-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/LBTAComponents/LBTAComponents.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/LBTAComponents.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARMagicUITests/Pods-ARMagicUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E203CF339D1F71A7D06474E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMagic-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F10A1C21FA8704521BF4E480 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARMagicUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0ABE8B520E6C0A8007E7AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ABE8EB20E6E8ED007E7AEC /* GameViewController.swift in Sources */,
+				E0ABE8EF20E73915007E7AEC /* Extensions.swift in Sources */,
+				E0ABE8BD20E6C0A8007E7AEC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8C920E6C0AA007E7AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ABE8EC20E6E8ED007E7AEC /* GameViewController.swift in Sources */,
+				E0ABE8F020E73915007E7AEC /* Extensions.swift in Sources */,
+				E0ABE8D220E6C0AA007E7AEC /* ARMagicTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0ABE8D420E6C0AA007E7AEC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0ABE8ED20E6E8ED007E7AEC /* GameViewController.swift in Sources */,
+				E0ABE8F120E73915007E7AEC /* Extensions.swift in Sources */,
+				E0ABE8DD20E6C0AA007E7AEC /* ARMagicUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0ABE8CF20E6C0AA007E7AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0ABE8B820E6C0A8007E7AEC /* ARMagic */;
+			targetProxy = E0ABE8CE20E6C0AA007E7AEC /* PBXContainerItemProxy */;
+		};
+		E0ABE8DA20E6C0AA007E7AEC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0ABE8B820E6C0A8007E7AEC /* ARMagic */;
+			targetProxy = E0ABE8D920E6C0AA007E7AEC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0ABE8C020E6C0A8007E7AEC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0ABE8C120E6C0A8007E7AEC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E0ABE8C520E6C0A9007E7AEC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0ABE8C620E6C0A9007E7AEC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0ABE8DF20E6C0AA007E7AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E0ABE8E020E6C0AA007E7AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0ABE8E220E6C0AA007E7AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F64FC1F8DD24B2BA65250DF4 /* Pods-ARMagic.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagic1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E0ABE8E320E6C0AA007E7AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71FB4E8580447BA19967DA7C /* Pods-ARMagic.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagic1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E0ABE8E520E6C0AA007E7AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9961F9B7EEBC72D8CB728016 /* Pods-ARMagicTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMagic.app/ARMagic";
+			};
+			name = Debug;
+		};
+		E0ABE8E620E6C0AA007E7AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B775A800451358C19DCC784 /* Pods-ARMagicTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ARMagic.app/ARMagic";
+			};
+			name = Release;
+		};
+		E0ABE8E820E6C0AA007E7AEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8648A9B00364FC2BC4EA8485 /* Pods-ARMagicUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARMagic;
+			};
+			name = Debug;
+		};
+		E0ABE8E920E6C0AA007E7AEC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A5BF559D286D2289EAEEC12 /* Pods-ARMagicUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AS82F53XC3;
+				INFOPLIST_FILE = ARMagicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ceriOSrey.ARMagicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ARMagic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0ABE8B420E6C0A7007E7AEC /* Build configuration list for PBXProject "ARMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ABE8DF20E6C0AA007E7AEC /* Debug */,
+				E0ABE8E020E6C0AA007E7AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ABE8E120E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ABE8E220E6C0AA007E7AEC /* Debug */,
+				E0ABE8E320E6C0AA007E7AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ABE8E420E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ABE8E520E6C0AA007E7AEC /* Debug */,
+				E0ABE8E620E6C0AA007E7AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0ABE8E720E6C0AA007E7AEC /* Build configuration list for PBXNativeTarget "ARMagicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0ABE8E820E6C0AA007E7AEC /* Debug */,
+				E0ABE8E920E6C0AA007E7AEC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0ABE8B120E6C0A7007E7AEC /* Project object */;
+}
