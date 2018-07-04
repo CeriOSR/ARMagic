@@ -79,7 +79,7 @@ class GameViewController: UIViewController {
         
         minusButton.anchor(nil, left: nil, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 10, rightConstant: 10, widthConstant: plusButtonWidth, heightConstant: plusButtonWidth)
         
-        resetButton.anchor(nil, left: nil, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: view.safeAreaLayoutGuide.rightAnchor, topConstant: 0, leftConstant: 0, bottomConstant: 10, rightConstant: 0, widthConstant: plusButtonWidth, heightConstant: plusButtonWidth)
+        resetButton.anchor(nil, left: nil, bottom: view.safeAreaLayoutGuide.bottomAnchor, right: nil, topConstant: 0, leftConstant: 0, bottomConstant: 10, rightConstant: 0, widthConstant: plusButtonWidth, heightConstant: plusButtonWidth)
         resetButton.anchorCenterXToSuperview()
 
     }
@@ -93,7 +93,7 @@ class GameViewController: UIViewController {
     
     @objc func handlePlusButtonTapped() {
         print("Plus Button pressed!")
-        addBox()
+        addShape()
     }
     
     @objc func handleMinusButtonTapped() {
@@ -103,18 +103,22 @@ class GameViewController: UIViewController {
     
     @objc func handleResetButtonTapped() {
         print("Reset Button pressed!")
+        resetScene()
     }
     
-    private func addBox() {
+    private func addShape() {
         //adding a box into the ar scene view with the button push
-        let boxNode = SCNNode()
-        boxNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.0002)
+        let shapeNode = SCNNode()
+//        shapeNode.geometry = SCNBox(width: 0.05, height: 0.05, length: 0.05, chamferRadius: 0.0002)
+//        shapeNode.geometry = SCNCapsule(capRadius: 0.05, height: 0.20) // if capRadius is half of height then circle.
+//        shapeNode.geometry = SCNCone(topRadius: 0.0, bottomRadius: 0.10, height: 0.50)
+//        shapeNode.geometry = SCNTorus(ringRadius: 0.1, pipeRadius: 0.02)
+        shapeNode.geometry = SCNTube(innerRadius: 0.02, outerRadius: 0.1, height: 0.2)
         //to change the box content, you have to diffuse the contents
-        boxNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
-        boxNode.name = "box"
-        let floatRandom = Float.random(in: -0.5...0.5)
-        boxNode.position = SCNVector3(floatRandom,floatRandom,floatRandom)
-        arscnView.scene.rootNode.addChildNode(boxNode)
+        shapeNode.geometry?.firstMaterial?.diffuse.contents = UIColor.red
+        shapeNode.name = "box"
+        shapeNode.position = SCNVector3(0.0, 0.0, -0.3)
+        arscnView.scene.rootNode.addChildNode(shapeNode)
     }
     
     private func removeElements() {
