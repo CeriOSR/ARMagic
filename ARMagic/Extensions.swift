@@ -67,11 +67,11 @@ extension UIDevice {
     }
     
     var isLandscape: Bool {
-        return UIDeviceOrientationIsLandscape(orientation) || UIInterfaceOrientationIsLandscape(UIApplication.shared.statusBarOrientation)
+        return orientation.isLandscape || UIApplication.shared.statusBarOrientation.isLandscape
     }
     
     var isPortrait: Bool {
-        return UIDeviceOrientationIsPortrait(orientation) || UIInterfaceOrientationIsPortrait(UIApplication.shared.statusBarOrientation)
+        return orientation.isPortrait || UIApplication.shared.statusBarOrientation.isPortrait
     }
     
     var isIphone: Bool {
